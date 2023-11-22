@@ -8,7 +8,7 @@
     "start": "eleventy --serve"
   },
   "keywords": [],
-  "author": "Phil Hawksworth <phil@netlify.com>",
+  "author": "Meg Willis <meg@tbs.agency>",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^0.10.0"
