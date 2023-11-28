@@ -10,4 +10,9 @@ layout: base.njk
     ❤️ 
   </div>
 </div>
+<ul>
+{% for article in new.articles %}
+  <li>{{ article.title }}</li>
+{% endfor %}
+</ul>
 <script src="/js/vibe.js"></script>
