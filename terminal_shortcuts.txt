@@ -7,3 +7,17 @@ cd
 ls
 
 npm start
+
+GET https://newsapi.org/v2/top-headlines?country=us&apiKey=53d367fa949f488fabe6d0f0573103df
+
+curl "https://newsapi.org/v2/top-headlines?country=au&apiKey=53d367fa949f488fabe6d0f0573103df"
+
+NEWS API
+53d367fa949f488fabe6d0f0573103df
+
+brew install jq
+
+LIST in API Data
+6d | jq
+
+npm i -save dotenv

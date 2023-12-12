@@ -11,8 +11,10 @@ layout: base.njk
   </div>
 </div>
 <ul>
-{% for article in new.articles %}
-  <li>{{ article.title }}</li>
+{% for article in news.articles %}
+  <li><h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+  <span>{{ article.source.name }} - <time>{{ article.publishedAt }}</time></span></li>
 {% endfor %}
 </ul>
 <script src="/js/vibe.js"></script>
+this
